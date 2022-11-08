@@ -12,10 +12,10 @@ module.exports = {
         900: "#121214",
         800: "#202024",
         400: "#7c7c8a",
-        100: "#e1e1e6",
+        200: "#e1e1e6",
       },
       cyan: {
-        500: "#81b8f7",
+        500: "#81D8F7",
         300: "#b0eaff"
       }
     },
@@ -30,6 +30,9 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: "Inter, sans-serif"
+      },
+      backgroundImage: {
+        "react-logo": "url('./src/assets/background.svg')"
       }
     },
   },

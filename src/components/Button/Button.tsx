@@ -5,9 +5,10 @@ import { Slot } from "@radix-ui/react-slot";
 export interface ButtonProps {
   children: ReactNode;
   asChild?: boolean;
+  className?: string;
 }
 
-const Button = ({ children, asChild = false }: ButtonProps) => {
+const Button = ({ children, asChild = false, className = "" }: ButtonProps) => {
   const Comp = asChild ? Slot : "button";
 
   return (
@@ -17,6 +18,7 @@ const Button = ({ children, asChild = false }: ButtonProps) => {
          bg-cyan-500 p-4 rounded-md w-full text-sm
          hover:bg-cyan-300 transition-colors focus:ring-2 ring-white
           outline-none
+          ${className}
         `
       )}
     >
