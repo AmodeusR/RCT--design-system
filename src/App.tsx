@@ -51,7 +51,7 @@ function App() {
           <Text size="sm" className="text-gray-400 font-semibold">Lembrar de mim por 30 dias</Text>
         </label>
 
-        <Button className="font-semibold rounded p-3">
+        <Button className="font-semibold rounded p-2">
           Entrar na plataforma
         </Button>
       </form>
