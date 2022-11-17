@@ -1,7 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 import SignIn from "./SignIn";
 import { within, userEvent } from "@storybook/testing-library";
-import { expect } from "@storybook/jest";
 
 export default {
   title: "Pages/Sign In",
