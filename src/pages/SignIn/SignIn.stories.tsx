@@ -14,7 +14,7 @@ export const Default: StoryObj = {
   play: ({ canvasElement }) => {
     const canvas = within(canvasElement);
 
-    userEvent.type(canvas.getByLabelText("Email"), "amodeus@contato.com");
+    userEvent.type(canvas.getByLabelText("Email"), "email@teste.com");
     userEvent.type(canvas.getByLabelText("Password"), "159753");
     userEvent.click(canvas.getByRole("button"));
   }
